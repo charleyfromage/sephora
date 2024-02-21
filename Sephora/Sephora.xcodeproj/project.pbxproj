@@ -9,13 +9,26 @@
 /* Begin PBXBuildFile section */
 		7440C33B2B851508004A39D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C33A2B851508004A39D4 /* AppDelegate.swift */; };
 		7440C33D2B851508004A39D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C33C2B851508004A39D4 /* SceneDelegate.swift */; };
-		7440C33F2B851508004A39D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C33E2B851508004A39D4 /* ViewController.swift */; };
-		7440C3422B851508004A39D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7440C3402B851508004A39D4 /* Main.storyboard */; };
 		7440C3442B851509004A39D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7440C3432B851509004A39D4 /* Assets.xcassets */; };
 		7440C3472B851509004A39D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7440C3452B851509004A39D4 /* LaunchScreen.storyboard */; };
 		7440C3522B851509004A39D4 /* SephoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C3512B851509004A39D4 /* SephoraTests.swift */; };
 		7440C35C2B851509004A39D4 /* SephoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C35B2B851509004A39D4 /* SephoraUITests.swift */; };
 		7440C35E2B851509004A39D4 /* SephoraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C35D2B851509004A39D4 /* SephoraUITestsLaunchTests.swift */; };
+		7440C36C2B851E65004A39D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C36B2B851E65004A39D4 /* Constants.swift */; };
+		7440C3702B8522F1004A39D4 /* GetItemsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C36F2B8522F1004A39D4 /* GetItemsService.swift */; };
+		7440C3732B852378004A39D4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C3722B852378004A39D4 /* Item.swift */; };
+		7440C3762B85246A004A39D4 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C3752B85246A004A39D4 /* APIError.swift */; };
+		7440C3782B85287B004A39D4 /* ImageUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C3772B85287B004A39D4 /* ImageUrls.swift */; };
+		7440C3952B85A572004A39D4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7440C3942B85A572004A39D4 /* README.md */; };
+		7440C3982B85A8C8004A39D4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7440C3972B85A8C8004A39D4 /* Kingfisher */; };
+		7440C39F2B865F71004A39D4 /* ItemsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C3992B865F71004A39D4 /* ItemsListInteractor.swift */; };
+		7440C3A02B865F71004A39D4 /* ItemsListAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C39A2B865F71004A39D4 /* ItemsListAssembler.swift */; };
+		7440C3A12B865F71004A39D4 /* ItemsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C39B2B865F71004A39D4 /* ItemsListPresenter.swift */; };
+		7440C3A22B865F71004A39D4 /* ItemsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C39C2B865F71004A39D4 /* ItemsListViewController.swift */; };
+		7440C3A32B865F71004A39D4 /* ItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C39D2B865F71004A39D4 /* ItemsListView.swift */; };
+		7440C3A42B865F71004A39D4 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C39E2B865F71004A39D4 /* ItemCell.swift */; };
+		7440C3A72B865F7D004A39D4 /* ItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C3A52B865F7D004A39D4 /* ItemDetailsView.swift */; };
+		7440C3A82B865F7D004A39D4 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440C3A62B865F7D004A39D4 /* ItemDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +52,6 @@
 		7440C3372B851508004A39D4 /* Sephora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sephora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7440C33A2B851508004A39D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7440C33C2B851508004A39D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7440C33E2B851508004A39D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7440C3412B851508004A39D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7440C3432B851509004A39D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7440C3462B851509004A39D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7440C3482B851509004A39D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +60,20 @@
 		7440C3572B851509004A39D4 /* SephoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SephoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7440C35B2B851509004A39D4 /* SephoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SephoraUITests.swift; sourceTree = "<group>"; };
 		7440C35D2B851509004A39D4 /* SephoraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SephoraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7440C36B2B851E65004A39D4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7440C36F2B8522F1004A39D4 /* GetItemsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItemsService.swift; sourceTree = "<group>"; };
+		7440C3722B852378004A39D4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		7440C3752B85246A004A39D4 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		7440C3772B85287B004A39D4 /* ImageUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUrls.swift; sourceTree = "<group>"; };
+		7440C3942B85A572004A39D4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7440C3992B865F71004A39D4 /* ItemsListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsListInteractor.swift; sourceTree = "<group>"; };
+		7440C39A2B865F71004A39D4 /* ItemsListAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsListAssembler.swift; sourceTree = "<group>"; };
+		7440C39B2B865F71004A39D4 /* ItemsListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsListPresenter.swift; sourceTree = "<group>"; };
+		7440C39C2B865F71004A39D4 /* ItemsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsListViewController.swift; sourceTree = "<group>"; };
+		7440C39D2B865F71004A39D4 /* ItemsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsListView.swift; sourceTree = "<group>"; };
+		7440C39E2B865F71004A39D4 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		7440C3A52B865F7D004A39D4 /* ItemDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsView.swift; sourceTree = "<group>"; };
+		7440C3A62B865F7D004A39D4 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7440C3982B85A8C8004A39D4 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +105,7 @@
 		7440C32E2B851508004A39D4 = {
 			isa = PBXGroup;
 			children = (
+				7440C3942B85A572004A39D4 /* README.md */,
 				7440C3392B851508004A39D4 /* Sephora */,
 				7440C3502B851509004A39D4 /* SephoraTests */,
 				7440C35A2B851509004A39D4 /* SephoraUITests */,
@@ -99,13 +126,12 @@
 		7440C3392B851508004A39D4 /* Sephora */ = {
 			isa = PBXGroup;
 			children = (
-				7440C33A2B851508004A39D4 /* AppDelegate.swift */,
-				7440C33C2B851508004A39D4 /* SceneDelegate.swift */,
-				7440C33E2B851508004A39D4 /* ViewController.swift */,
-				7440C3402B851508004A39D4 /* Main.storyboard */,
+				7440C3482B851509004A39D4 /* Info.plist */,
 				7440C3432B851509004A39D4 /* Assets.xcassets */,
 				7440C3452B851509004A39D4 /* LaunchScreen.storyboard */,
-				7440C3482B851509004A39D4 /* Info.plist */,
+				7440C38B2B852D89004A39D4 /* Application */,
+				7440C3802B852BAB004A39D4 /* Presentation */,
+				7440C36A2B851ACB004A39D4 /* Network */,
 			);
 			path = Sephora;
 			sourceTree = "<group>";
@@ -127,6 +153,74 @@
 			path = SephoraUITests;
 			sourceTree = "<group>";
 		};
+		7440C36A2B851ACB004A39D4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7440C3752B85246A004A39D4 /* APIError.swift */,
+				7440C3742B852383004A39D4 /* Models */,
+				7440C3712B85236D004A39D4 /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7440C3712B85236D004A39D4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7440C36F2B8522F1004A39D4 /* GetItemsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7440C3742B852383004A39D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7440C3722B852378004A39D4 /* Item.swift */,
+				7440C3772B85287B004A39D4 /* ImageUrls.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7440C3802B852BAB004A39D4 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				7440C3812B852BB4004A39D4 /* ItemsList */,
+				7440C3822B852BBC004A39D4 /* ItemDetails */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		7440C3812B852BB4004A39D4 /* ItemsList */ = {
+			isa = PBXGroup;
+			children = (
+				7440C39E2B865F71004A39D4 /* ItemCell.swift */,
+				7440C39A2B865F71004A39D4 /* ItemsListAssembler.swift */,
+				7440C3992B865F71004A39D4 /* ItemsListInteractor.swift */,
+				7440C39B2B865F71004A39D4 /* ItemsListPresenter.swift */,
+				7440C39D2B865F71004A39D4 /* ItemsListView.swift */,
+				7440C39C2B865F71004A39D4 /* ItemsListViewController.swift */,
+			);
+			path = ItemsList;
+			sourceTree = "<group>";
+		};
+		7440C3822B852BBC004A39D4 /* ItemDetails */ = {
+			isa = PBXGroup;
+			children = (
+				7440C3A52B865F7D004A39D4 /* ItemDetailsView.swift */,
+				7440C3A62B865F7D004A39D4 /* ItemDetailsViewController.swift */,
+			);
+			path = ItemDetails;
+			sourceTree = "<group>";
+		};
+		7440C38B2B852D89004A39D4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7440C33A2B851508004A39D4 /* AppDelegate.swift */,
+				7440C33C2B851508004A39D4 /* SceneDelegate.swift */,
+				7440C36B2B851E65004A39D4 /* Constants.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +237,9 @@
 			dependencies = (
 			);
 			name = Sephora;
+			packageProductDependencies = (
+				7440C3972B85A8C8004A39D4 /* Kingfisher */,
+			);
 			productName = Sephora;
 			productReference = 7440C3372B851508004A39D4 /* Sephora.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +312,9 @@
 				Base,
 			);
 			mainGroup = 7440C32E2B851508004A39D4;
+			packageReferences = (
+				7440C3962B85A8C8004A39D4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 7440C3382B851508004A39D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +331,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7440C3952B85A572004A39D4 /* README.md in Resources */,
 				7440C3472B851509004A39D4 /* LaunchScreen.storyboard in Resources */,
 				7440C3442B851509004A39D4 /* Assets.xcassets in Resources */,
-				7440C3422B851508004A39D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +358,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7440C33F2B851508004A39D4 /* ViewController.swift in Sources */,
+				7440C3A72B865F7D004A39D4 /* ItemDetailsView.swift in Sources */,
+				7440C3A12B865F71004A39D4 /* ItemsListPresenter.swift in Sources */,
+				7440C3A82B865F7D004A39D4 /* ItemDetailsViewController.swift in Sources */,
+				7440C39F2B865F71004A39D4 /* ItemsListInteractor.swift in Sources */,
+				7440C3702B8522F1004A39D4 /* GetItemsService.swift in Sources */,
 				7440C33B2B851508004A39D4 /* AppDelegate.swift in Sources */,
+				7440C3782B85287B004A39D4 /* ImageUrls.swift in Sources */,
 				7440C33D2B851508004A39D4 /* SceneDelegate.swift in Sources */,
+				7440C3732B852378004A39D4 /* Item.swift in Sources */,
+				7440C3A32B865F71004A39D4 /* ItemsListView.swift in Sources */,
+				7440C36C2B851E65004A39D4 /* Constants.swift in Sources */,
+				7440C3A22B865F71004A39D4 /* ItemsListViewController.swift in Sources */,
+				7440C3762B85246A004A39D4 /* APIError.swift in Sources */,
+				7440C3A02B865F71004A39D4 /* ItemsListAssembler.swift in Sources */,
+				7440C3A42B865F71004A39D4 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +409,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7440C3402B851508004A39D4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7440C3412B851508004A39D4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7440C3452B851509004A39D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +551,7 @@
 				INFOPLIST_FILE = Sephora/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +579,7 @@
 				INFOPLIST_FILE = Sephora/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -607,6 +711,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7440C3962B85A8C8004A39D4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7440C3972B85A8C8004A39D4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7440C3962B85A8C8004A39D4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7440C32F2B851508004A39D4 /* Project object */;
 }
